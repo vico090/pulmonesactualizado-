@@ -11,7 +11,7 @@ seccion = st.sidebar.selectbox("Navegación", ["🏠 Inicio", "📖 Aprende", "�
 # --- Sección: INICIO ---
 if seccion == "🏠 Inicio":
     st.markdown("<h1 style='text-align: center; color: #0077B6;'>🫁 Anatomía del Sistema Respiratorio</h1>", unsafe_allow_html=True)
-    st.image("assets/pulmones.png", width=300)
+    st.image("pulmones.png", width=300)
     st.markdown("""
     Bienvenido a esta aplicación educativa sobre el sistema respiratorio humano. 
     Aquí podrás aprender sobre la estructura de los pulmones, su función y cómo cuidarlos.
